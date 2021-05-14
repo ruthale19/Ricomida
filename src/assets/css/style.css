@@ -1,0 +1,201 @@
+body {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  color: #373a3c;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.text-logo {
+  font-family: "Lobster", cursive;
+  font-size: 37px;
+}
+
+.text-logo2 {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+
+header {
+  margin-top: 84px;
+  color: #373a3c;
+}
+
+.container {
+  max-width: 980px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.card {
+  border-width: 0;
+}
+
+/* .card-img {
+  min-height: 384px;
+  min-width: 482px;
+} */
+
+header h5 {
+  font-size: 40px;
+  border-bottom: 2px solid #000;
+}
+
+header p {
+  font-size: 20px;
+}
+
+.text-alignCard {
+  text-align: left;
+}
+
+.btn-size {
+  font-size: 16px;
+  border: 2px solid #dddddd;
+}
+
+.btn:focus {
+  box-shadow: 0 0 2px 2px #dddddd;
+}
+
+.tooltip-inner {
+  max-width: none;
+}
+
+.carousel-indicators {
+  top: 200px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #373a3c;
+}
+
+.bordesup,
+.bordesup2 {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #373a3c;
+  margin-top: 15px;
+}
+
+.text-recipe {
+  font-size: 20px;
+  margin-top: 4rem;
+  padding-top: 3rem;
+}
+
+.sub {
+  border-bottom-width: 1.5px;
+  border-bottom-style: solid;
+  border-bottom-color: #373a3c;
+  display: inline-block;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.bordesup2 {
+  font-size: 40px;
+}
+
+.text-title {
+  font-size: 23px;
+}
+
+.text-subtitle, .text-subtitle2 {
+  font-size: 16px;
+}
+
+.news {
+  background-color: #dc3545;
+  height: 534px;
+}
+
+.newsletter {
+  padding-top: 150.5px;
+  font-size: 40px;
+}
+
+.newsletter2 {
+  font-size: 30px;
+}
+
+.news-btn {
+  width: 233px;
+  border-color: #dddddd;
+}
+
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+
+  .text-alignCard {
+    text-align: center;
+  }
+
+  header h5,
+  .bordesup2 {
+    font-size: 25px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+
+  .btn-size {
+    font-size: 13px;
+  }
+
+  .tooltip {
+    display: none;
+  }
+
+  .col-md-6 {
+    padding: 0;
+  }
+
+  .text-recipe {
+    font-size: 16px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .bordesup {
+    border-top-width: 0;
+  }
+
+  .sub {
+    border-bottom-width: 0;
+    font-size: 16px;
+  }
+
+  .col-md-6 {
+    margin-top: 20px;
+  }
+
+  .text-title {
+    font-size: 17px;
+  }
+
+  .news {
+    height: 448px;
+  }
+
+  .newsletter {
+    padding-top: 95.5px;
+    font-size: 30px;
+  }
+
+  .newsletter2 {
+    font-size: 20px;
+  }
+
+  .text-logo2 {
+    font-size: 20px;
+  }
+}
