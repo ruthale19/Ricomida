@@ -23,8 +23,8 @@ $(function () {
     });
 
     //toggle - mostrar y ocultar contenido de card simultáneamente
-    $(".text-title").click(function(){
+    $(".text-title").click(function () {
         $(".text-subtitle").toggle();
-      });
+    });
 
 });
